@@ -1,221 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Receipty NZ — Legal</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background: #faf7f2;
-      color: #1a1a1a;
-      line-height: 1.7;
-    }
-    header {
-      background: #c74b26;
-      color: #fff;
-      padding: 32px 24px;
-      text-align: center;
-    }
-    header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
-    header p { font-size: 14px; opacity: 0.85; }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      padding: 16px;
-      background: #fff;
-      border-bottom: 1px solid #e8e2d9;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-    nav a {
-      color: #c74b26;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 15px;
-      padding: 6px 16px;
-      border-radius: 20px;
-      border: 1.5px solid #c74b26;
-      transition: all 0.2s;
-    }
-    nav a:hover { background: #c74b26; color: #fff; }
-    .container { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
-    section { margin-bottom: 60px; }
-    h2 {
-      font-size: 26px;
-      font-weight: 700;
-      color: #c74b26;
-      margin-bottom: 8px;
-      padding-bottom: 8px;
-      border-bottom: 2px solid #e8e2d9;
-    }
-    .updated {
-      font-size: 13px;
-      color: #888;
-      margin-bottom: 24px;
-    }
-    h3 {
-      font-size: 17px;
-      font-weight: 700;
-      color: #1a1a1a;
-      margin: 24px 0 8px;
-    }
-    p { margin-bottom: 12px; color: #333; }
-    ul { margin: 8px 0 12px 20px; }
-    li { margin-bottom: 6px; color: #333; }
-    .contact-box {
-      background: #fff;
-      border: 1px solid #e8e2d9;
-      border-radius: 12px;
-      padding: 20px 24px;
-      margin-top: 32px;
-    }
-    .contact-box p { margin: 0; }
-    a { color: #c74b26; }
-    footer {
-      text-align: center;
-      padding: 24px;
-      font-size: 13px;
-      color: #888;
-      border-top: 1px solid #e8e2d9;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal — Receipty NZ</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 24px;
+    color: #2a2a2a;
+    line-height: 1.6;
+    background: #faf7f2;
+    text-align: center;
+  }
+  h1 {
+    color: #c74b26;
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    color: #888;
+    margin-bottom: 48px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  a.button {
+    display: block;
+    padding: 18px 24px;
+    background: #fff;
+    border: 2px solid #c74b26;
+    border-radius: 12px;
+    color: #c74b26;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s;
+  }
+  a.button:hover {
+    background: #c74b26;
+    color: #fff;
+  }
+  footer {
+    margin-top: 80px;
+    color: #888;
+    font-size: 14px;
+  }
+  .icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+</style>
 </head>
 <body>
 
-<header>
-  <h1>🧾 Receipty NZ</h1>
-  <p>Legal Documents</p>
-</header>
+<div class="icon">🧾</div>
+<h1>Receipty NZ</h1>
+<p class="subtitle">Legal Documents</p>
 
-<nav>
-  <a href="#terms">Terms of Service</a>
-  <a href="#privacy">Privacy Policy</a>
-</nav>
-
-<div class="container">
-
-  <!-- TERMS OF SERVICE -->
-  <section id="terms">
-    <h2>Terms of Service</h2>
-    <p class="updated">Last updated: May 1, 2026</p>
-
-    <h3>1. Acceptance of Terms</h3>
-    <p>By downloading or using Receipty NZ ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.</p>
-
-    <h3>2. Description of Service</h3>
-    <p>Receipty NZ is a receipt tracking application designed for New Zealand users. The App allows you to:</p>
-    <ul>
-      <li>Photograph and upload receipts for automatic data extraction</li>
-      <li>Manually enter receipt information</li>
-      <li>Track spending by category (Personal, Business, Family)</li>
-      <li>Monitor GST (Goods and Services Tax) at 15% for NZ tax purposes</li>
-      <li>Generate spending summaries and reports</li>
-    </ul>
-
-    <h3>3. User Accounts</h3>
-    <p>You must create an account to use the App. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.</p>
-
-    <h3>4. Acceptable Use</h3>
-    <p>You agree to use the App only for lawful purposes. You must not:</p>
-    <ul>
-      <li>Upload receipts or content that you do not have the right to share</li>
-      <li>Attempt to reverse engineer or compromise the App's security</li>
-      <li>Use the App for any fraudulent or illegal purpose</li>
-      <li>Share your account credentials with others</li>
-    </ul>
-
-    <h3>5. Tax and Financial Disclaimer</h3>
-    <p>Receipty NZ provides GST tracking and expense summaries as a convenience tool only. This information is not financial or tax advice. We strongly recommend consulting a qualified accountant or tax professional for all tax filing and financial decisions. Receipty NZ is not responsible for any errors in tax calculations or filings.</p>
-
-    <h3>6. Data and Privacy</h3>
-    <p>Your use of the App is also governed by our Privacy Policy, which is incorporated into these Terms by reference.</p>
-
-    <h3>7. Subscriptions and Payments</h3>
-    <p>Receipty NZ may offer free and paid subscription tiers. Paid subscriptions are billed through Google Play. All subscription management, cancellations, and refunds are handled according to Google Play's billing policies.</p>
-
-    <h3>8. Limitation of Liability</h3>
-    <p>To the maximum extent permitted by law, Receipty NZ and its developers shall not be liable for any indirect, incidental, or consequential damages arising from your use of the App.</p>
-
-    <h3>9. Changes to Terms</h3>
-    <p>We reserve the right to modify these Terms at any time. Continued use of the App after changes constitutes acceptance of the new Terms.</p>
-
-    <h3>10. Governing Law</h3>
-    <p>These Terms are governed by the laws of New Zealand.</p>
-
-    <div class="contact-box">
-      <p>Questions about these Terms? Contact us at <a href="mailto:hello@receipty.nz">hello@receipty.nz</a></p>
-    </div>
-  </section>
-
-  <!-- PRIVACY POLICY -->
-  <section id="privacy">
-    <h2>Privacy Policy</h2>
-    <p class="updated">Last updated: May 1, 2026</p>
-
-    <h3>1. Introduction</h3>
-    <p>Receipty NZ ("we", "our", "us") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our App.</p>
-
-    <h3>2. Information We Collect</h3>
-    <p>We collect the following information:</p>
-    <ul>
-      <li><strong>Account information:</strong> Email address and password (stored securely as a hash)</li>
-      <li><strong>Receipt data:</strong> Images, merchant names, dates, amounts, and item descriptions that you upload or enter</li>
-      <li><strong>Usage data:</strong> How you interact with the App (e.g., features used, screens visited)</li>
-    </ul>
-
-    <h3>3. How We Use Your Information</h3>
-    <p>We use your information to:</p>
-    <ul>
-      <li>Provide and improve the App's features</li>
-      <li>Process receipt images using AI (Claude by Anthropic) to extract item data</li>
-      <li>Generate spending summaries and GST reports for your personal use</li>
-      <li>Maintain the security of your account</li>
-    </ul>
-
-    <h3>4. AI Processing (Claude by Anthropic)</h3>
-    <p>Receipt images you upload are processed by Claude, an AI service provided by Anthropic, to extract item and price information. Images are transmitted securely and are not used to train AI models. Please refer to Anthropic's privacy policy for more details on their data handling practices.</p>
-
-    <h3>5. Data Storage and Security</h3>
-    <p>Your data is stored securely on servers hosted by Railway (railway.app). We implement appropriate technical measures to protect your information, including encrypted transmission (HTTPS) and secure password hashing.</p>
-
-    <h3>6. Data Sharing</h3>
-    <p>We do not sell your personal information. We only share your data with:</p>
-    <ul>
-      <li><strong>Anthropic:</strong> For AI-powered receipt processing (images only)</li>
-      <li><strong>Railway:</strong> Our cloud hosting provider</li>
-      <li>Legal authorities, if required by law</li>
-    </ul>
-
-    <h3>7. Your Rights (NZ Privacy Act 2020)</h3>
-    <p>Under the New Zealand Privacy Act 2020, you have the right to:</p>
-    <ul>
-      <li>Access the personal information we hold about you</li>
-      <li>Request correction of inaccurate information</li>
-      <li>Request deletion of your account and associated data</li>
-    </ul>
-
-    <h3>8. Data Retention</h3>
-    <p>We retain your data for as long as your account is active. If you delete your account, your personal data and receipt information will be permanently deleted within 30 days.</p>
-
-    <h3>9. Children's Privacy</h3>
-    <p>The App is not intended for use by children under 13 years of age. We do not knowingly collect personal information from children.</p>
-
-    <h3>10. Changes to This Policy</h3>
-    <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the App.</p>
-
-    <div class="contact-box">
-      <p>For privacy-related requests or questions, contact us at <a href="mailto:hello@receipty.nz">hello@receipty.nz</a></p>
-    </div>
-  </section>
-
+<div class="links">
+  <a class="button" href="privacy-policy.html">Privacy Policy</a>
+  <a class="button" href="terms-of-service.html">Terms of Service</a>
 </div>
 
 <footer>
-  © 2026 Receipty NZ. All rights reserved.
+  © 2026 Receipty NZ · Auckland, New Zealand
 </footer>
 
 </body>
