@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Receipty NZ</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #2a2a2a;
+    line-height: 1.7;
+    background: #faf7f2;
+  }
+  h1 { color: #c74b26; border-bottom: 2px solid #c74b26; padding-bottom: 10px; }
+  h2 { color: #c74b26; margin-top: 32px; }
+  h3 { color: #2a2a2a; margin-top: 24px; }
+  a { color: #c74b26; }
+  .updated { color: #666; font-size: 0.9em; margin-bottom: 30px; }
+  ul { padding-left: 24px; }
+  li { margin-bottom: 6px; }
+  .contact-box {
+    background: #fff;
+    border-left: 4px solid #c74b26;
+    padding: 16px 20px;
+    margin-top: 24px;
+    border-radius: 4px;
+  }
+  .back-link {
+    display: inline-block;
+    margin-bottom: 24px;
+    color: #c74b26;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<a href="index.html" class="back-link">← Back</a>
+
+<h1>Privacy Policy</h1>
+<p class="updated"><strong>Effective date:</strong> 3 May 2026<br><strong>Last updated:</strong> 3 May 2026</p>
+
+<p>Receipty NZ ("we", "our", "us") provides a mobile application that helps you scan, organize, and track receipts, with a focus on New Zealand GST calculations. This Privacy Policy explains what data we collect, how we use it, and the choices you have. By using Receipty NZ, you agree to this policy.</p>
+
+<h2>1. Information We Collect</h2>
+
+<h3>1.1 Account Information</h3>
+<ul>
+  <li>Email address</li>
+  <li>Password (stored only as a one-way bcrypt hash — we never see your actual password)</li>
+  <li>Optional: full name and profile picture (only if you sign in with Google)</li>
+</ul>
+
+<h3>1.2 Receipt Data You Provide</h3>
+<ul>
+  <li>Receipt images you upload or capture</li>
+  <li>Extracted information: merchant name, date, line items, totals, currency</li>
+  <li>Categorisation labels you assign (Personal, Business, Family)</li>
+  <li>GST treatment, exchange rates, and any memos you add</li>
+</ul>
+
+<h3>1.3 Usage Data</h3>
+<ul>
+  <li>Subscription plan (Free or Pro) and trial status</li>
+  <li>Number of receipts scanned per month (for plan limits)</li>
+  <li>Server logs containing technical data such as request timestamps and error messages</li>
+</ul>
+
+<h3>1.4 Subscription Data</h3>
+<ul>
+  <li>Subscription status, plan tier, and renewal information</li>
+  <li>A RevenueCat user identifier linking your account to your subscription</li>
+</ul>
+
+<p>We do <strong>not</strong> collect: your contacts, your location, your phone number, your address book, your call history, or any data unrelated to receipt management.</p>
+
+<h2>2. How We Use Your Information</h2>
+<ul>
+  <li><strong>Receipt parsing:</strong> Receipt images are sent to Anthropic's Claude API to extract merchant, date, and line items automatically.</li>
+  <li><strong>Service operation:</strong> Storing and displaying your receipts, calculating GST, generating reports.</li>
+  <li><strong>Plan management:</strong> Enforcing the free-tier scan limit and trial period; verifying Pro subscription status.</li>
+  <li><strong>Communication:</strong> Responding to support requests you send us.</li>
+  <li><strong>Security:</strong> Detecting abuse, fraud, or technical issues.</li>
+</ul>
+
+<p>We do <strong>not</strong> use your data for advertising. We do <strong>not</strong> sell your data to anyone, ever.</p>
+
+<h2>3. Third-Party Services</h2>
+<p>Receipty NZ relies on a small number of trusted infrastructure providers to operate. Each one only receives the minimum data needed for its function:</p>
+<ul>
+  <li><strong>Anthropic (Claude API)</strong> — Receives receipt images for parsing only. Anthropic does not retain images for model training under our API agreement. <a href="https://www.anthropic.com/legal/privacy" target="_blank">Anthropic Privacy Policy</a></li>
+  <li><strong>Railway</strong> — Hosts our server and database. Receives all account and receipt data needed for the app to function. <a href="https://railway.com/legal/privacy" target="_blank">Railway Privacy Policy</a></li>
+  <li><strong>RevenueCat</strong> — Manages subscriptions. Receives a pseudonymous user identifier and subscription events. <a href="https://www.revenuecat.com/privacy/" target="_blank">RevenueCat Privacy Policy</a></li>
+  <li><strong>Google Play Billing</strong> — Processes subscription payments. We never see your payment card details. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+</ul>
+
+<h2>4. Data Storage and Security</h2>
+<ul>
+  <li>All communication between the app and our servers uses HTTPS encryption.</li>
+  <li>Passwords are stored only as bcrypt hashes; the original password is never stored or logged.</li>
+  <li>Authentication uses signed JWT tokens stored securely on your device (Expo SecureStore / iOS Keychain / Android Keystore).</li>
+  <li>Receipt images and data are stored on Railway servers located in their hosting regions.</li>
+  <li>We retain your data for as long as your account is active. You may request deletion at any time (see Section 6).</li>
+</ul>
+
+<p>While we use industry-standard security practices, no online service can guarantee absolute security. We will notify affected users in the event of a data breach as required by New Zealand's Privacy Act 2020.</p>
+
+<h2>5. Children's Privacy</h2>
+<p>Receipty NZ is not directed at children under 13. We do not knowingly collect data from children under 13. If you believe a child has created an account, please contact us and we will delete it.</p>
+
+<h2>6. Your Rights</h2>
+<p>Under New Zealand's Privacy Act 2020 and similar laws, you have the right to:</p>
+<ul>
+  <li><strong>Access</strong> the personal data we hold about you</li>
+  <li><strong>Correct</strong> any inaccurate data</li>
+  <li><strong>Delete</strong> your account and all associated data</li>
+  <li><strong>Export</strong> your data in a portable format (CSV)</li>
+  <li><strong>Withdraw consent</strong> at any time by deleting your account</li>
+</ul>
+
+<p>To exercise any of these rights, email us at the address below. We will respond within 20 working days as required by New Zealand law.</p>
+
+<h2>7. Changes to This Policy</h2>
+<p>We may update this Privacy Policy as the app evolves. We will update the "Last updated" date at the top of this page and, for significant changes, notify you in the app or by email.</p>
+
+<h2>8. Governing Law</h2>
+<p>This policy is governed by the laws of New Zealand. Any disputes will be resolved in New Zealand courts.</p>
+
+<h2>9. Contact Us</h2>
+<div class="contact-box">
+  <strong>Receipty NZ</strong><br>
+  Email: <a href="mailto:receipty.nz@gmail.com">receipty.nz@gmail.com</a><br>
+  Location: Auckland, New Zealand
+</div>
+
+<p style="margin-top: 60px; color: #888; font-size: 0.9em; text-align: center;">
+  © 2026 Receipty NZ. All rights reserved.
+</p>
+
+</body>
+</html>
